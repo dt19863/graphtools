@@ -4,7 +4,11 @@ Title: Use Cartesian Coordinates as the Nodes of a Graph
 Version: 0.1.0
 Author: Becky Griffiths
 Maintainer: Becky Griffiths <dt19863@bristol.ac.uk>
-Description: This is an example package that provides functions for working with (x,y) coordinate points as the nodes of a graph. It includes a function for finding the distance matrix of a graph based on the euclidean distance between the graph, a function to find the minimum spanning tree of the graph, and a function to plot the nodes of a graph and connections between them based on an adjacency matrix. There is also a function to convert the adjacency matrix of a graph to a set of edges, used by the plotting function.
+Description:    This is an example package that provides functions for working with (x,y) coordinate points as the nodes of a graph. 
+                It includes a function for finding the distance matrix of a graph based on the euclidean distance between the graph, 
+                a function to find the minimum spanning tree of the graph, and a function to plot the nodes of a graph and connections 
+                between them based on an adjacency matrix. There is also a function to convert the adjacency matrix of a graph to a 
+                set of edges, used by the plotting function.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
