@@ -144,7 +144,7 @@ graph_plot <- function(x_coords,y_coords,adj_mat) {
   }
   edges_to_plot <- edge_set(adj_mat)
   num_edges <- nrow(edges_to_plot)
-  plot(x_coords,y_coords,xlab='x',ylab='y',pch=19, col="#808080",cex=4)
+  plot(x_coords,y_coords,xlab='x',ylab='y',pch=19, col="#808080",cex=2)
   for (i in 1:num_edges) {
     lines(c(x_coords[edges_to_plot[i,1]],x_coords[edges_to_plot[i,2]]),c(y_coords[edges_to_plot[i,1]],y_coords[edges_to_plot[i,2]]), col="#007ba8", lwd=4)
   }
