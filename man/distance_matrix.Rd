@@ -12,7 +12,7 @@ distance_matrix(x_coords, y_coords)
 \item{y_coords}{the y-coordinates of the graph nodes, as a vector.}
 }
 \value{
-a matrix D, where the D[i,j] is the euclidean distance between node i and node j.
+a matrix D, where D[i,j] is the euclidean distance between node i and node j.
 }
 \description{
 distance_matrix creates a distance matrix for the nodes of a graph, based on their euclidean distance.

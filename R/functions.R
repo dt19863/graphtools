@@ -5,7 +5,7 @@
 #' @param x_coords the x-coordinates of the graph nodes, as a vector.
 #' @param y_coords the y-coordinates of the graph nodes, as a vector.
 #'
-#' @return a matrix D, where the D[i,j] is the euclidean distance between node i and node j.
+#' @return a matrix D, where D[i,j] is the euclidean distance between node i and node j.
 #'
 #' @examples
 #' xs <- c(1,0,3)
