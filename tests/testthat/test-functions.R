@@ -12,6 +12,12 @@ test_that("prim works", {
   expect_equal(prim(xs,ys), A)
 })
 
+test_that("edge_set finds correct number of edges", {
+  A <- rbind(c(0,1,0,0),c(1,0,1,1),c(0,1,0,0),c(0,1,0,0))
+  edgemat <- edge_set(A)
+  expect_true(nrow(edgemat)==3)
+})
+
 test_that("graph_plot returns an error if dimensions don't match", {
   xs <- c(0,1,2,3)
   ys <- c(0,1,2,3)

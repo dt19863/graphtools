@@ -126,15 +126,7 @@ edge_set <- function(adj_mat) {
 #' @examples
 #' xs <- c(1,1,2,2)
 #' ys <- c(1,2,2,1)
-#' test <- matrix(rep(0),nrow=4,ncol=4)
-#' test[1,2] <- 1
-#' test[2,1] <- 1
-#' test[2,3] <- 1
-#' test[3,2] <- 1
-#' test[3,4] <- 1
-#' test[4,3] <- 1
-#' test[4,1] <- 1
-#' test[1,4] <- 1
+#' test <- rbind(c(0,1,0,1),c(1,0,1,0),c(0,1,0,1),c(1,0,1,0))
 #' plot_graph(xs,ys,test)
 #'
 #' @export
