@@ -1,2 +1,2 @@
 # graphtools
-An example of an R package.
+This is an example package that provides functions for working with (x,y) coordinate points as the nodes of a graph. It includes a function for finding the distance matrix of a graph based on the euclidean distance between the graph, a function to find the minimum spanning tree of the graph, and a function to plot the nodes of a graph and connections between them based on an adjacency matrix. There is also a function to convert the adjacency matrix of a graph to a set of edges, used by the plotting function.
