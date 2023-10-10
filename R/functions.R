@@ -131,6 +131,12 @@ edge_set <- function(adj_mat) {
 #'
 #' @export
 graph_plot <- function(x_coords,y_coords,adj_mat) {
+  if (length(x_coords)!=length(y_coords)) {
+    stop('adjacency matrix must have same number of rows and columns as number of nodes')
+  }
+  if (length(x_coords)!=nrow(adj_mat)) {
+    stop('adjacency matrix must have same number of rows and columns as number of nodes')
+  }
   if (length(x_coords)!=ncol(adj_mat)) {
     stop('adjacency matrix must have same number of rows and columns as number of nodes')
   }
