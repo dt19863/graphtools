@@ -21,7 +21,7 @@ test_that("edge_set finds correct number of edges", {
 test_that("graph_plot returns an error if dimensions don't match", {
   xs <- c(0,1,2,3)
   ys <- c(0,1,2,3)
-  A <- D <- matrix(rep(0),nrow=2,ncol=2)
+  A <- matrix(rep(0),nrow=2,ncol=2)
   expect_error(graphplot(xs,ys,A))
 })
 
